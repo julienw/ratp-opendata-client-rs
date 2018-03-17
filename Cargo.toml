@@ -1,0 +1,19 @@
+[package]
+name = "ratp-opendata-client"
+version = "0.1.0"
+authors = ["Julien Wajsberg <felash@gmail.com>"]
+description = "Access RATP's open data API"
+license = "MIT"
+readme = "README.md"
+repository = ""
+documentation = ""
+keywords = ["ratp", "api", "soap"]
+categories = ["api-bindings"]
+
+[dependencies]
+xml-rs = "0.7"
+log = "0.4.1"
+hyper = "0.11"
+xmltree = "0.8"
+chrono = "0.4"
+
